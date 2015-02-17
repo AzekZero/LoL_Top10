@@ -1,0 +1,160 @@
+/* Azek's Test Page! */
+
+.body_div{
+display:inline-block;
+position:absolute;
+width:1000px;
+height:100%;
+background-color: rgb(150,250,250);
+top:0px;
+}
+
+.sidemenu{
+display:inline-block;
+position: absolute;
+width:190px;
+height:900px;
+background-color: rgb(50,50,50);
+top:5px;
+left:5px;
+}
+
+.sm_button{
+position:relative;
+background-color: rgb(150,150,150);
+margin-left:5px;
+margin-top:5px;
+top:5px;
+width: 180px;
+height:80px;
+}
+
+.table_main{
+display:block;
+position: absolute;
+width:378px;
+height:900px;
+top:5px;
+left:200px;
+padding-top:3px;
+padding-left:2px;
+background-color: rgb(150,150,150);
+}
+
+.table_main td{
+margin-left:2px;
+}
+
+.tm_top{
+position:absolute ;
+top:10px ;
+}
+
+.text_container{
+display: table-cell;
+width:100%
+margin-left: auto;
+margin-right: auto;
+vertical-align:middle;
+text-align:center;
+}
+
+.type0{
+display:inline-block;
+position: relative;
+width:300px ;
+height:30px;
+position:absolute  ;
+background-color:none ;
+z-index:10;
+margin-bottom:-1px;
+}
+
+.type1{
+color: rgb(255,255,255);
+font-family:roboto;
+font-size:24px;
+text-align:center;
+background-color: rgb(50,50,50);
+display:inline-block;
+position: relative;
+width:30px ;
+height:30px;
+margin-left:2px;
+margin-bottom:-1px;
+}
+
+.type2{
+color: rgb(255,255,255);
+font-family:roboto;
+font-size:24px;
+text-align:center;
+background-color: rgb(50,50,50);
+display:inline-block;
+position: relative;
+width:70px ;
+height:30px;
+margin-left:3px;
+margin-bottom:-1px;
+}
+
+.type3{
+color: rgb(255,255,255);
+font-family:roboto;
+font-size:24px;
+text-align:left;
+background-color: rgb(50,50,50);
+display:inline-block;
+position: relative;
+width:232px ;
+height:30px;
+
+margin-left:3px;
+margin-bottom:-1px;
+}
+
+.type4{
+background-color: rgb(50,50,50);
+display:inline-block;
+position: relative;
+width:20px ;
+height:30px;
+margin-left:2px;
+margin-bottom:-1px;
+} 
+
+.type5{
+background-color: rgb(50,50,50);
+display:inline-block;
+position: relative;
+width:367px ;
+height:150px ;
+display:none;
+margin-top:2px ;
+margin-bottom:1px ;
+}
+
+.type6{
+display:inline-block;
+width:367px ;
+height:30px;
+background-color: rgb(50,50,50);
+margin-bottom:1px ;
+margin-left:0px;
+}
+
+
+#main_r2c1{
+display:none;
+}
+
+type4_image{
+width:312px ;
+height:150px ;
+}
+
+image{
+width:50px;
+height:50px;
+}
+

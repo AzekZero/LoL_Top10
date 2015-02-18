@@ -1,50 +1,7 @@
-/**
- * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
- * http://cssreset.com
- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+ div{top:0;} 
+}
 
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 /*LoL Professional Top10*/
 .body_div{
 display:inline-block;
@@ -71,7 +28,7 @@ background-color: rgb(150,150,150);
 margin-left:5px;
 margin-top:5px;
 top:5px;
-width: 180px;
+width:180px;
 height:80px;
 }
 
@@ -87,30 +44,34 @@ padding-left:2px;
 background-color: rgb(150,150,150);
 }
 
-.table_main td{
-margin-left:2px;
-}
-
-.tm_top{
-position:absolute;
-top:10px ;
-margin-bottom:10px;
+.table_main tr{
+font-family:none;
+border-collapse: collapse;
 }
 
 .text_container{
-display:incline-block;
-position:static;
+display:block;
+position:absolute;
 width:100%;
 height:100%;
-margin-left: auto;
-margin-right: auto;
 vertical-align:middle;
 text-align:center;
+margin:0px;
+}
 
+.text_container2{
+display:block;
+position:absolute;
+width:100% - 5px;
+height:100%;
+vertical-align:middle;
+text-align:left;
+padding-left:5px;
+margin:0px;
 }
 
 .type0{
-display:inline-block;
+display:none;
 position: relative;
 width:300px ;
 height:30px;
@@ -121,43 +82,42 @@ z-index:10;
 
 .type1{
 color: rgb(255,255,255);
+background-color: rgb(50,50,50);
 font-family:roboto;
 font-size:24px;
-background-color: rgb(50,50,50);
 display:inline-block;
 position:relative;
 width:30px;
 height:30px;
-margin-right:-2px;
-margin-bottom:-1px;
+
+margin-bottom:3px;
 }
 
 .type2{
 color: rgb(255,255,255);
+background-color: rgb(50,50,50);
 font-family:roboto;
 font-size:24px;
 text-align:center;
-background-color: rgb(50,50,50);
 display:inline-block;
 position: relative;
 width:70px ;
 height:30px;
-margin-right:-2px;
-margin-bottom:-1px;
+
+margin-bottom:3px;
 }
 
 .type3{
 color: rgb(255,255,255);
+background-color: rgb(50,50,50);
 font-family:roboto;
 font-size:24px;
 text-align:left;
-background-color: rgb(50,50,50);
 display:inline-block;
 position:relative;
-width:232px;
+width:242px;
 height:30px;
-margin-left:3px;
-margin-bottom:-1px;
+margin-bottom:3px;
 }
 
 .type4{
@@ -166,8 +126,7 @@ display:inline-block;
 position: relative;
 width:20px ;
 height:30px;
-margin-left:2px;
-margin-bottom:-1px;
+margin-bottom:3px;
 } 
 
 .type5{
@@ -177,8 +136,7 @@ position: relative;
 width:367px ;
 height:150px ;
 display:none;
-margin-top:2px ;
-margin-bottom:1px ;
+margin-bottom:3px ;
 }
 
 .type6{
@@ -186,22 +144,8 @@ display:inline-block;
 width:367px ;
 height:30px;
 background-color: rgb(50,50,50);
-margin-bottom:1px ;
+margin-bottom:3px ;
 margin-left:0px;
 }
 
-
-#main_r2c1{
-display:none;
-}
-
-type4_image{
-width:312px ;
-height:150px ;
-}
-
-image{
-width:50px;
-height:50px;
-}
 

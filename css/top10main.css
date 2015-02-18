@@ -1,5 +1,51 @@
-/* Azek's Test Page! */
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*LoL Professional Top10*/
 .body_div{
 display:inline-block;
 position:absolute;
@@ -46,17 +92,21 @@ margin-left:2px;
 }
 
 .tm_top{
-position:absolute ;
+position:absolute;
 top:10px ;
+margin-bottom:10px;
 }
 
 .text_container{
-display: table-cell;
-width:100%
+display:incline-block;
+position:static;
+width:100%;
+height:100%;
 margin-left: auto;
 margin-right: auto;
 vertical-align:middle;
 text-align:center;
+
 }
 
 .type0{
@@ -64,23 +114,21 @@ display:inline-block;
 position: relative;
 width:300px ;
 height:30px;
-position:absolute  ;
-background-color:none ;
+position:absolute;
+background-color:none;
 z-index:10;
-margin-bottom:-1px;
 }
 
 .type1{
 color: rgb(255,255,255);
 font-family:roboto;
 font-size:24px;
-text-align:center;
 background-color: rgb(50,50,50);
 display:inline-block;
-position: relative;
-width:30px ;
+position:relative;
+width:30px;
 height:30px;
-margin-left:2px;
+margin-right:-2px;
 margin-bottom:-1px;
 }
 
@@ -94,7 +142,7 @@ display:inline-block;
 position: relative;
 width:70px ;
 height:30px;
-margin-left:3px;
+margin-right:-2px;
 margin-bottom:-1px;
 }
 
@@ -105,10 +153,9 @@ font-size:24px;
 text-align:left;
 background-color: rgb(50,50,50);
 display:inline-block;
-position: relative;
-width:232px ;
+position:relative;
+width:232px;
 height:30px;
-
 margin-left:3px;
 margin-bottom:-1px;
 }

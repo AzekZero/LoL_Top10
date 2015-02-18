@@ -17,15 +17,15 @@ var sidebar_b7 = document.getElementById("sm_button7");
 var sidebar_b8 = document.getElementById("sm_button8");
 
 var infobar_b0 =  document.getElementById("row1");
-var infobar_b1 =  document.getElementById("main_r3c0");
-var infobar_b2 =  document.getElementById("main_r5c0");
-var infobar_b3 =  document.getElementById("main_r7c0");
+var infobar_b1 =  document.getElementById("row2");
+var infobar_b2 =  document.getElementById("row3");
+var infobar_b3 =  document.getElementById("row4");
 var infobar_b4 =  document.getElementById("row5");
-var infobar_b5 =  document.getElementById("main_r11c0");
-var infobar_b6 =  document.getElementById("main_r13c0");
-var infobar_b7 =  document.getElementById("main_r15c0");
-var infobar_b8 =  document.getElementById("main_r17c0");
-var infobar_b9 =  document.getElementById("main_r19c0");
+var infobar_b5 =  document.getElementById("row6");
+var infobar_b6 =  document.getElementById("row7");
+var infobar_b7 =  document.getElementById("row8");
+var infobar_b8 =  document.getElementById("row9");
+var infobar_b9 =  document.getElementById("row10");
 
 var img1 = new Image();
 var img2 = new Image();

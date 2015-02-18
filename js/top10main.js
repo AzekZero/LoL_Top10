@@ -16,11 +16,11 @@ var sidebar_b6 = document.getElementById("sm_button6");
 var sidebar_b7 = document.getElementById("sm_button7");
 var sidebar_b8 = document.getElementById("sm_button8");
 
-var infobar_b0 =  document.getElementById("main_r1c0");
+var infobar_b0 =  document.getElementById("row1");
 var infobar_b1 =  document.getElementById("main_r3c0");
 var infobar_b2 =  document.getElementById("main_r5c0");
 var infobar_b3 =  document.getElementById("main_r7c0");
-var infobar_b4 =  document.getElementById("main_r9c0");
+var infobar_b4 =  document.getElementById("row5");
 var infobar_b5 =  document.getElementById("main_r11c0");
 var infobar_b6 =  document.getElementById("main_r13c0");
 var infobar_b7 =  document.getElementById("main_r15c0");

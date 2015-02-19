@@ -1,12 +1,6 @@
 // Azek's Test Page! 
 var image_switch = [];
 
-
-
-
-
-
-
 var sidebar_b1 = document.getElementById('sm_button1');
 var sidebar_b2 = document.getElementById("sm_button2");
 var sidebar_b3 = document.getElementById("sm_button3");
@@ -26,6 +20,16 @@ var infobar_b6 =  document.getElementById("row7");
 var infobar_b7 =  document.getElementById("row8");
 var infobar_b8 =  document.getElementById("row9");
 var infobar_b9 =  document.getElementById("row10");
+var infoclose_b0 = document.getElementById('main_r2c1');
+var infoclose_b1 = document.getElementById('main_r4c1');
+var infoclose_b2 = document.getElementById('main_r6c1');
+var infoclose_b3 = document.getElementById('main_r8c1');
+var infoclose_b4 = document.getElementById('main_r10c1');
+var infoclose_b5 = document.getElementById('main_r12c1');
+var infoclose_b6 = document.getElementById('main_r14c1');
+var infoclose_b7 = document.getElementById('main_r16c1');
+var infoclose_b8 = document.getElementById('main_r18c1');
+var infoclose_b9 = document.getElementById('main_r20c1');
 
 var img1 = new Image();
 var img2 = new Image();
@@ -220,6 +224,47 @@ infobar_b9.onclick = function() {
 	imgloc9.style.display = 'inline-block';
 	}
 };
+
+infoclose_b0.onclick = function() {
+		imgloc0.style.display = 'none';
+		imgloc1.style.display = 'inline-block';
+}
+infoclose_b1.onclick = function() {
+		imgloc1.style.display = 'none';
+		imgloc2.style.display = 'inline-block';
+}
+infoclose_b2.onclick = function() {
+		imgloc2.style.display = 'none';
+		imgloc3.style.display = 'inline-block';
+}
+infoclose_b3.onclick = function() {
+		imgloc3.style.display = 'none';
+		imgloc4.style.display = 'inline-block';
+}
+infoclose_b4.onclick = function() {
+		imgloc4.style.display = 'none';
+		imgloc5.style.display = 'inline-block';
+}
+infoclose_b5.onclick = function() {
+		imgloc5.style.display = 'none';
+		imgloc6.style.display = 'inline-block';
+}
+infoclose_b6.onclick = function() {
+		imgloc6.style.display = 'none';
+		imgloc7.style.display = 'inline-block';
+}
+infoclose_b7.onclick = function() {
+		imgloc7.style.display = 'none';
+		imgloc8.style.display = 'inline-block';
+}
+infoclose_b8.onclick = function() {
+		imgloc8.style.display = 'none';
+		imgloc9.style.display = 'inline-block';
+}
+infoclose_b9.onclick = function() {
+		imgloc9.style.display = 'none';
+}
+
 
 
 /*

@@ -3,47 +3,142 @@
 }
 
 /*LoL Professional Top10*/
-.body_div{
-display:inline-block;
-position:absolute;
-width:1000px;
+.super_div{
+display:block;
+position:relative;
+width:563px;
 height:100%;
+margin:0px auto;
+background-color: rgb(0,0,0);
+}
+
+.body_div{
+display:incline-block;
+position:relative;
+width:563px;
+height:758px;
 background-color: rgb(150,250,250);
 top:0px;
+margin:0px auto;
 }
 
 .sidemenu{
 display:inline-block;
 position: absolute;
 width:190px;
-height:900px;
+height:746px;
 background-color: rgb(50,50,50);
 top:5px;
 left:5px;
 }
 
-.sm_button{
+.sm_container{
+position:relative;
+background-color: rgb(0,150,150);
+margin-left:5px;
+margin-top:5px;
+top:0px;
+width:180px;
+height:105px;
+}
+
+.sm_button1{
+position:relative;
+display:incline-block;
+background-color:none;
+margin-left:5px;
+margin-top:5px;
+top:5px;
+width:170px;
+height:45px;
+color: rgb(255,255,255);
+
+font-weight:100;
+margin-left:0px, auto;
+margin-right:0px auto;
+}
+
+.sm_button2{
 position:relative;
 background-color: rgb(150,150,150);
 margin-left:5px;
 margin-top:5px;
-top:5px;
+top:0px;
 width:180px;
 height:80px;
 }
 
+.text_container_s1{
+color: rgb(255,255,255);
+position:absolute;
+width:100%;
+height:100%;
+vertical-align:middle;
+text-align:center;
+margin:0px;
+top:0px;
+font: 36px Roboto Condensed, sans-serif;
+font-weight: 700;
+}
+
+.text_container_s2{
+
+}
+
+
 .table_main{
-display:block;
+display:inline-block;
+position: relative;
+width:357px;
+height:746px;
+top:5px;
+left:0px;
+background-color: rgb(150,150,150);
+left:200px;
+}
+
+@media screen and (min-width: 573px) and (max-width:800px) {
+.sidemenu{
+display:inline-block;
 position: absolute;
+width:190px;
+height:750px;
+background-color: rgb(50,50,50);
+top:5px;
+left:5px;
+}
+.table_main{
+left:200px;
+}
+}
+
+@media screen and (min-width: 300px) and (max-width:573px){
+.sidemenu{
+display:none;
+}
+.super_div{
+display:block;
+position:relative;
 width:358px;
 height:100%;
-top:5px;
-left:200px;
-background-color: rgb(150,150,150);
+margin:0px auto;
+background-color: rgb(0,0,0);
+}
+.body_div{
+display:incline-block;
+position:relative;
+width:358px;
+height:761px;
+background-color: rgb(150,250,250);
+top:0px;
+margin:0px auto;
+}
+.table_main{
+left:0px;
+}
 }
 
 .table_main tr{
-font-family:none;
 border-collapse: collapse;
 }
 
@@ -55,6 +150,10 @@ vertical-align:middle;
 text-align:center;
 margin:0px;
 top:4px;
+font-family:Roboto Condensed;
+font-sze:24px;
+font-style: normal;
+
 }
 
 .text_container2{
@@ -66,6 +165,8 @@ text-align:left;
 padding-left:5px;
 margin:0px;
 top:4px;
+font: 24px Roboto Condensed, sans-serif;
+font-weight:100;
 }
 
 .text_container3{
@@ -81,6 +182,11 @@ letter-spacing:-2px;
 }
 
 .table_row{
+margin-bottom:-1px;
+border-top: 3px solid rgb(0,0,0);
+width:100%;
+}
+.table_row2{
 
 }
 
@@ -103,7 +209,7 @@ display:none;
 .type1{
 color: rgb(255,255,255);
 background-color: rgb(50,50,50);
-font-family:roboto;
+font-family:Roboto Condensed;
 font-size:24px;
 display:inline-block;
 position:relative;
@@ -113,7 +219,6 @@ margin-left:-0px;
 margin-right:0px;
 margin-bottom:0px;
 margin-top:-0px;
-
 top:-0px;
 z-index:8;
 }
@@ -121,7 +226,7 @@ z-index:8;
 .type2{
 color: rgb(255,255,255);
 background-color: rgb(50,50,50);
-font-family:roboto;
+font-family:Roboto Condensed;
 font-size:24px;
 text-align:center;
 display:inline-block;
@@ -139,14 +244,14 @@ z-index:8;
 .type3{
 color: rgb(255,255,255);
 background-color: rgb(50,50,50);
-font-family:roboto;
+font-family:Roboto Condensed;
 font-size:24px;
 text-align:left;
 display:inline-block;
 position:relative;
 width:242px;
 height:38px;
-margin-left:-2px;
+margin-left:-3px;
 margin-right:0px;
 margin-bottom:0px;
 margin-top:0px;
@@ -158,7 +263,7 @@ z-index:8;
 background-color: rgb(50,50,50);
 display:inline-block;
 position: relative;
-width:16px ;
+width:16.5px ;
 height:38px;
 margin-left:-3px;
 margin-right:0px;
@@ -170,39 +275,41 @@ z-index:8;
 
 .type5{
 background-color: rgb(150,50,250);
-display:inline-block;
-position: relative;
-width:354px;
-height:370px;
 display:none;
+position: relative;
+width:351px;
+height:300px;
 margin-left:0px;
 margin-right:0px;
 margin-bottom:-0px ;
-margin-top:-42px;
+margin-top:-43px;
 z-index:5;
 border-style: solid;
-border-width: 2px;
+border-width: 3px;
 border-color: rgb(0,0,0);
 }
 
 .type5_sub{
 display:incline-block;
 position:absolute;
-width:340px;
-height:318px;
+width:339px;
+height:250px;
 background-color: rgb(50,50,250);
-top:46px;
-left:8px;
+top:44px;
+left:6px;
 }
 
 .type6{
 display:inline-block;
-width:358px ;
+width:357px ;
 height:38px;
 background-color: rgb(50,50,50);
 margin-bottom:0px ;
 margin-left:0px;
 }
+
+.
+
 /*
 #main_r1c0{
 top:40px;
